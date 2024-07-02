@@ -7,3 +7,4 @@ target/
 *.swp
 **/.flattened-pom.xml
 **/*.swo
+.scannerwork/
