@@ -30,7 +30,7 @@ import jakarta.servlet.annotation.WebListener;
 /**
  * Simple listener for asynchronous events (for debugging and error messages).
  */
-@WebListener
+//@WebListener
 public class SimpleCmisAsyncListener implements AsyncListener {
 
     private static final Logger LOG = LoggerFactory.getLogger(SimpleCmisAsyncListener.class);
