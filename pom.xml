@@ -30,23 +30,23 @@
 
     <!-- Project Information -->
 
-    <groupId>com.kgs-software</groupId>
+    <groupId>com.iqdoq</groupId>
     <artifactId>chemistry-opencmis</artifactId>
     <name>Chemistry OpenCMIS</name>
     <version>${global.version}</version>
     <packaging>pom</packaging>
 
     <organization>
-        <name>KGS Software GmbH</name>
-        <url>https://kgs-software.com/</url>
+        <name>IQDoQ GmbH</name>
+        <url>https://iqdoq.com/</url>
     </organization>
 
-    <url>https://kgs-software.com/en/products#cmis</url>
+    <!--<url>https://iqdoq.com</url>-->
 
-    <ciManagement>
+    <!--<ciManagement>
         <system>GitHub Workflows</system>
-        <url>https://github.com/kgs-software/chemistry-opencmis/tree/main/.github/workflows</url>
-    </ciManagement>
+        <url>https://github.com/iqdoq/chemistry-opencmis/tree/main/.github/workflows</url>
+    </ciManagement>-->
     <inceptionYear>2009</inceptionYear>
     <description>
         Chemistry OpenCMIS is an open source implementation of the OASIS CMIS specification.
@@ -61,9 +61,9 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:https://github.com/kgs-software/chemistry-opencmis.git</connection>
-        <developerConnection>scm:git:https://github.com/kgs-software/chemistry-opencmis.git</developerConnection>
-        <url>https://github.com/kgs-software/chemistry-opencmis</url>
+        <connection>scm:git:https://github.com/iqdoq/chemistry-opencmis.git</connection>
+        <developerConnection>scm:git:https://github.com/iqdoq/chemistry-opencmis.git</developerConnection>
+        <url>https://github.com/iqdoq/chemistry-opencmis</url>
     </scm>
 
     <distributionManagement>
@@ -77,10 +77,10 @@
         </snapshotRepository>
     </distributionManagement>
 
-    <issueManagement>
+    <!--<issueManagement>
         <system>Jira</system>
-        <url>https://kgs-software.atlassian.net/servicedesk/customer/portals</url>
-    </issueManagement>
+        <url>https://iqdoq.atlassian.net/servicedesk/customer/portals</url>
+    </issueManagement>-->
 
     <!-- Project Environment -->
     <modules>

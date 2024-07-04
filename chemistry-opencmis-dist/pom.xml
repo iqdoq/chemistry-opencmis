@@ -23,7 +23,7 @@
 
     <parent>
         <artifactId>chemistry-opencmis</artifactId>
-        <groupId>com.kgs-software</groupId>
+        <groupId>com.iqdoq</groupId>
         <version>${global.version}</version>
         <relativePath>../</relativePath>
     </parent>
@@ -45,31 +45,31 @@
 
         <dependency>
             <artifactId>chemistry-opencmis-client-impl</artifactId>
-            <groupId>com.kgs-software</groupId>
+            <groupId>com.iqdoq</groupId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
             <artifactId>chemistry-opencmis-client-api</artifactId>
-            <groupId>com.kgs-software</groupId>
+            <groupId>com.iqdoq</groupId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
             <artifactId>chemistry-opencmis-client-bindings</artifactId>
-            <groupId>com.kgs-software</groupId>
+            <groupId>com.iqdoq</groupId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
             <artifactId>chemistry-opencmis-commons-api</artifactId>
-            <groupId>com.kgs-software</groupId>
+            <groupId>com.iqdoq</groupId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
             <artifactId>chemistry-opencmis-commons-impl</artifactId>
-            <groupId>com.kgs-software</groupId>
+            <groupId>com.iqdoq</groupId>
             <version>${project.version}</version>
         </dependency>
 
@@ -77,14 +77,14 @@
 
         <dependency>
             <artifactId>chemistry-opencmis-server-bindings-war</artifactId>
-            <groupId>com.kgs-software</groupId>
+            <groupId>com.iqdoq</groupId>
             <version>${project.version}</version>
             <type>war</type>
         </dependency>
 
         <dependency>
             <artifactId>chemistry-opencmis-server-support</artifactId>
-            <groupId>com.kgs-software</groupId>
+            <groupId>com.iqdoq</groupId>
             <version>${project.version}</version>
         </dependency>
 
@@ -92,21 +92,21 @@
 
         <dependency>
             <artifactId>chemistry-opencmis-server-fileshare</artifactId>
-            <groupId>com.kgs-software</groupId>
+            <groupId>com.iqdoq</groupId>
             <version>${project.version}</version>
             <type>war</type>
         </dependency>
 
         <dependency>
             <artifactId>chemistry-opencmis-server-inmemory</artifactId>
-            <groupId>com.kgs-software</groupId>
+            <groupId>com.iqdoq</groupId>
             <version>${project.version}</version>
             <type>war</type>
         </dependency>
  
          <dependency>
             <artifactId>chemistry-opencmis-osgi-client</artifactId>
-            <groupId>com.kgs-software</groupId>
+            <groupId>com.iqdoq</groupId>
             <version>${project.version}</version>
         </dependency>
 

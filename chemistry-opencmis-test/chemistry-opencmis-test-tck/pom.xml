@@ -13,7 +13,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.kgs-software</groupId>
+        <groupId>com.iqdoq</groupId>
         <artifactId>chemistry-opencmis</artifactId>
         <version>${global.version}</version>
         <relativePath>../../pom.xml</relativePath>
@@ -64,7 +64,7 @@
     
     <dependencies>
         <dependency>
-            <groupId>com.kgs-software</groupId>
+            <groupId>com.iqdoq</groupId>
             <artifactId>chemistry-opencmis-client-impl</artifactId>
             <version>${project.version}</version>
         </dependency>
