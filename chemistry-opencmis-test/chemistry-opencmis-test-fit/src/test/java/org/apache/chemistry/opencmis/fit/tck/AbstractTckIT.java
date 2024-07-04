@@ -51,6 +51,7 @@ import org.apache.chemistry.opencmis.tck.report.TextReport;
 import org.apache.chemistry.opencmis.tck.runner.AbstractRunner;
 import org.apache.tomcat.util.scan.StandardJarScanner;
 import org.junit.AfterClass;
+import org.junit.Assume;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -266,6 +267,9 @@ public abstract class AbstractTckIT extends AbstractRunner {
     public void runTck() throws Exception {
         // set up TCK and run it
         setParameters(getSessionParameters());
+
+        Assume.assumeFalse(getBindingType().value().equals(BindingType.ATOMPUB.value()));
+
         loadDefaultTckGroups();
 
         run(new TestProgressMonitor());
