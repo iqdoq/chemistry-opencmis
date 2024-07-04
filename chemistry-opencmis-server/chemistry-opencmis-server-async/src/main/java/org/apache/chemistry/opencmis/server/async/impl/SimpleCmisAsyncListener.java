@@ -25,11 +25,12 @@ import org.slf4j.LoggerFactory;
 
 import jakarta.servlet.AsyncEvent;
 import jakarta.servlet.AsyncListener;
-import jakarta.servlet.annotation.WebListener;
+//import jakarta.servlet.annotation.WebListener;
 
 /**
  * Simple listener for asynchronous events (for debugging and error messages).
  */
+// commented out because of WildFly AS expecting implementation of interfaces
 //@WebListener
 public class SimpleCmisAsyncListener implements AsyncListener {
 
