@@ -1,5 +1,6 @@
-[![GitHub CI](https://github.com/kgs-software/chemistry-opencmis/actions/workflows/maven.yml/badge.svg)]([https://github.com/rife2/tests-badge/actions/workflows/bld.yml](https://github.com/kgs-software/chemistry-opencmis/actions/workflows/maven.yml))
-
+<!--
+[![GitHub CI](https://github.com/iqdoq/chemistry-opencmis/actions/workflows/maven.yml/badge.svg)]([https://github.com/rife2/tests-badge/actions/workflows/bld.yml](https://github.com/iqdoq/chemistry-opencmis/actions/workflows/maven.yml))
+ -->
 # Apache Chemistry OpenCMIS
 
 OpenCMIS is a collection of Java libraries, frameworks and tools around
