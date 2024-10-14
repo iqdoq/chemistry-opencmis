@@ -106,7 +106,7 @@
     </modules>
 
     <properties>
-	<global.version>1.2.2</global.version>
+    	<global.version>1.2.3</global.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compile.source>17</maven.compile.source>
         <maven.compile.target>17</maven.compile.target>
@@ -123,7 +123,7 @@
         <slf4j.version>1.7.36</slf4j.version>
         <log4j.version>2.20.0</log4j.version>
         <apacheclient.version>4.5.14</apacheclient.version>
-        <cxf.version>4.0.4</cxf.version>
+        <cxf.version>4.0.5</cxf.version>
         <okhttp.version>4.10.0</okhttp.version>
     </properties>
 

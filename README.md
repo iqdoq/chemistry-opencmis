@@ -19,4 +19,4 @@ You can build OpenCMIS like this:
     mvn clean install
 ```
 
-You need Maven 3.5 (or higher) with Java 12 (or higher) for the build.
+You need Maven 3.5 (or higher) with Java 17 (or higher) for the build.
